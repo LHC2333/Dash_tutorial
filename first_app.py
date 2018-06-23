@@ -14,7 +14,10 @@ app.layout = html.Div(children = [
                 'data': [
                     {'x':[1,2,3,4,5],'y':[6,7,8,9,10],'type':'line','name':'boat'},
                     {'x':[1,2,3,4,5],'y':[6,5,7,3,8],'type':'bar','name':'car'}
-                ]
+                ],
+                 'layout':{
+                    'title':'Basic Dash Example'
+                 }
               })
 ])
 
